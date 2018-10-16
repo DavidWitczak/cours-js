@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Les variables</title>
+</head>
+<body>
+
+<script>
+  // chaine de caractères
+  var var_string = "Hello world";
+  document.write(var_string + '<br/>');
+
+  // numérique
+  var var_int = 42;
+  console.log(var_int);
+
+  // tableau
+  var var_array = ['a', 'b', 'c', 'd'];
+  document.write(var_array[0] + ' - ' + var_array[3] + '<br/>');
+
+  // object
+  var var_object = {
+    'users_1':
+        {'prenom': 'David', 'nom': 'Witczak'},
+    'users_2':
+        {'prenom': 'Marion', 'nom': 'Coene'}
+  };
+  document.write(var_object.users_1.prenom + '<br/>');
+</script>
+
+</body>
+</html>
